@@ -1,0 +1,9 @@
+venv/
+god_host/projects/
+god_host/logs/
+god_host/snapshots/
+god_host/bot_data.db
+__pycache__/
+*.pyc
+.env
+.DS_Store
