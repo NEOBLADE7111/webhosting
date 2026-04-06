@@ -193,7 +193,7 @@ def init_db():
 
     # Initial Channels provided by User with valid IDs
     initial_channels = [
-        '("@AbdulBotzOfficial", "Abdul Bots Official", "https://t.me/AbdulBotzOfficial", 1),
+        ("@AbdulBotzOfficial", "Abdul Bots Official", "https://t.me/AbdulBotzOfficial", 1),
         ("@AbdulBotMakingTips", "Bot Making Tips", "https://t.me/AbdulBotMakingTips", 1),
         ("@LootifyXOfficial", "Lootify X Official", "https://t.me/LootifyXOfficial", 1),
         ("-1003586753317", "|×𝐃𝐀𝐑𝐊 𝐍𝐀𝐆𝐈×|", "https://t.me/+5MZILV8MCutjMTc1", 1),
