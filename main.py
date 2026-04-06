@@ -80,7 +80,7 @@ async def main_menu(user_id):
         InlineKeyboardButton(text="🤝 INVITE", callback_data="btn_referral"),
         InlineKeyboardButton(text="📖 HOW TO USE", callback_data="btn_help")
     )
-    builder.row(InlineKeyboardButton(text="📞 SUPPORT", url="https://t.me/ovttr"))
+    builder.row(InlineKeyboardButton(text="📞 SUPPORT", url="https://t.me/Rytce"))
     
     if user_id == ADMIN_ID:
         builder.row(InlineKeyboardButton(text="🛡 ADMIN PANEL", callback_data="btn_admin"))
@@ -489,7 +489,7 @@ async def cb_upgrade(event: Union[types.Message, types.CallbackQuery]):
         "<i>Select a plan to contact management.</i>"
     )
     kb = InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="⭐ Professional", url="https://t.me/ovttr"), InlineKeyboardButton(text="👑 VIP", url="https://t.me/ovttr")],
+        [InlineKeyboardButton(text="⭐ Professional", url="https://t.me/Rytce"), InlineKeyboardButton(text="👑 VIP", url="https://t.me/Rytce")],
         [InlineKeyboardButton(text="⬅️ Back", callback_data="btn_home")]
     ])
     if isinstance(event, types.CallbackQuery):
@@ -1149,7 +1149,7 @@ async def cb_wallet(event: Union[types.Message, types.CallbackQuery]):
            f"🔑 <b>UPI:</b> <code>neo.farhan@fam</code>\n\n" \
            "<i>To deposit, send funds via UPI and 'Contact Support' with your User ID. Automatic crypto gateway coming soon!</i>"
     kb = InlineKeyboardBuilder()
-    kb.row(InlineKeyboardButton(text="💳 Add Funds (UPI)", url="https://t.me/ovttr"))
+    kb.row(InlineKeyboardButton(text="💳 Add Funds (UPI)", url="https://t.me/Rytce"))
     kb.row(InlineKeyboardButton(text="⬅️ Back", callback_data="btn_home"))
     
     if isinstance(event, types.CallbackQuery):
